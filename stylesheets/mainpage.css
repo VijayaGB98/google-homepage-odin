@@ -1,0 +1,157 @@
+.page-main-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 10px;
+  scale: 0.9;
+}
+
+.search {
+  margin: auto;
+  position: relative;
+}
+
+.search-bar {
+  padding: 0px 0px 0px 10px;
+  width: 500px;
+  height: 40px;
+  border-radius: 22px;
+  opacity: 0.9;
+  text-align: left;
+  vertical-align: center;
+  font-size: 16px;
+  padding-left: 45px;
+  border: 1px solid rgba(223, 225, 229, 0.7);
+  box-shadow: 1px 1px 1px rgba(19, 26, 49, 0.2);
+}
+
+.search img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+.page-navbar {
+  background-color: #fff;
+  list-style-type: none;
+}
+
+.page-navbar li {
+  display: inline;
+}
+
+.right-footer {
+  float: left;
+}
+
+.left-footer {
+  float: right;
+}
+
+nav ul {
+  text-align: right;
+}
+
+footer a {
+  font-family: 'Arial';
+  font-size: 13px;
+  color: #5f6368;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: auto;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline;
+}
+
+.link-a a {
+  font-family: 'Arial';
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+}
+
+.link-a a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+.link-b a {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  background-color: #4387fd;
+  color: white;
+  padding: 8px 12px;
+  line-height: 25px;
+  border-radius: 2px;
+  margin: 0 10px;
+}
+
+.link-b a:hover {
+  text-decoration: underline;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button input {
+  height: 35px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #5f6368;
+  border-radius: 5px;
+}
+
+.button input[type='submit']:hover {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #c6c6c6;
+  color: #222;
+  cursor: pointer;
+}
+
+#button1 {
+  width: 127px;
+  margin-right: 5px;
+}
+
+#button2 {
+  width: 140px;
+  margin-left: 5px;
+}
